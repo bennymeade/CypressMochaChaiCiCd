@@ -1,0 +1,24 @@
+def COLOR_MAP = ['SUCCESS': 'good', 'FAILURE': 'danger', 'UNSTABLE': 'danger', 'ABORTED': 'danger']
+def BS_BUILD_ID
+
+pipeline {
+    agent any
+    options { 
+        timestamps() 
+        disableConcurrentBuilds()
+    }
+    tools {nodejs "Jenkins npm"}
+
+    stages {
+        stage('Preparing NPM') {
+        steps {
+            sh '''#!/bin/bash
+                node --version
+                npm --version
+                browserstack-cypress --version
+                npm install
+                npx cypress cache list'''
+            }
+        }
+    }
+}

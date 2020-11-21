@@ -1,0 +1,10 @@
+{
+    "baseUrl": "https://snipcart-react-gatsby.netlify.app",
+    "rateApiUrl": "https://api.ratesapi.io/api",
+    "integrationFolder": "./cypress/integration/tests/",
+    "chromeWebSecurity": false,
+    "viewportWidth": 1280,
+    "viewportHeight": 1000,
+    "nodeVersion": "system",
+    "video": false
+}
