@@ -25,3 +25,5 @@ base.page.js is used for common methods and all other page class extend from bas
 For both the api and ui tasks I've given various examples of different approaches that can be taken when desiging the tests. Cypress.io is a very versatile test tool making the many different approaches possible.
 
 This framework is designed to ensure future test extensions and maintainance is done with ease.
+
+# Test webhook
