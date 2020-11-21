@@ -16,13 +16,13 @@ pipeline {
                 npx cypress cache list'''
             }
         }
-    }
 
-    stage('Run Tests') {
+        stage('Run Tests') {
         steps {
             script {
                 sh 'npm run test.ci'
                 }
             }
         }
+    }
 }
