@@ -4,7 +4,7 @@ import productPage from '../../pages/product.page'
 
 const products = ['Bow Ties', 'Dry Martini', 'Fireworks'];
 
-describe('Scenario 1', () => {
+describe('Verify the products purchase options', () => {
     
     products.forEach(product => {
         it(`Select ` + `${product}` + ` and verify buying options`, () => {

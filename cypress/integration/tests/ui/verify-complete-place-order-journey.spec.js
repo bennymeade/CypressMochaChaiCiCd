@@ -11,7 +11,7 @@ import orders from '../../pages/orders.page'
 const product = 'Fireworks'
 const orderComfirmationMesssage = 'Thank you for your order! Your invoice has been sent to you by email, you should receive it soon.'
 
-describe('Scenario 1', () => {
+describe('Place Order', () => {
     beforeEach(() => {
         homePage
             .openUrl('')
