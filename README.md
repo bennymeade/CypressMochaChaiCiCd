@@ -1,7 +1,5 @@
-# CypressMochaChaiCiCd
-
 ## Prerequisite
-$ git clone https://github.com/bennymeade/CypressMochaChaiCiCd.git
+$ git clone https://github.com/bennymeade/js-chaining-cypress-with-cicd.git
 
 $ npm install
 
