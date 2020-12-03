@@ -1,5 +1,5 @@
 {
-    "name": "dunnhumby-sdet-test",
+    "name": "sdet-test-example",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -9,14 +9,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/bennymeade/DunnhumbySDETTest.git"
+        "url": "https://github.com/bennymeade/CypressMochaChaiCiCd.git"
     },
     "author": "Brendan Meade",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/bennymeade/DunnhumbySDETTest/issues"
+        "url": "https://github.com/bennymeade/CypressMochaChaiCiCd/issues"
     },
-    "homepage": "https://github.com/bennymeade/DunnhumbySDETTest#readme",
+    "homepage": "https://github.com/bennymeade/CypressMochaChaiCiCd#readme",
     "devDependencies": {
         "chai-colors": "^1.0.1",
         "cypress": "^6.0.0"
