@@ -12,9 +12,6 @@ describe('Verify the products purchase options', () => {
                 .openUrl('')
                 .validateH1Title('React & Gatsby shop powered by Snipcart')
                 .clickProductName(`${product}`)
-            // Select any product from the snipcart application
-            // Verify the current relative URL contains right product name
-            // Verify all the dropdown options and Buy for button (include colour and etc)
             productPage
                 .validateH1Title(`${product}`)
                 .validatePageUrl(`${product}`)
